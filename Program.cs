@@ -52,8 +52,8 @@ namespace BlobConsoleDemo
             myContainerClient.SetAccessPolicy(accessType: PublicAccessType.Blob);
 
             //Logic for Blob Upload
-           string localFilePath = "image.jpg";
-           BlobClient myBlobClient = myContainerClient.GetBlobClient("Azure-Migrate.svg");
+           string localFilePath = "Azure-Migrate.svg";
+           BlobClient myBlobClient = myContainerClient.GetBlobClient(localFilePath);
            Console.WriteLine("Uploading to Blob storage as blob:\n\t {0}\n", myBlobClient.Uri);
            // Open the file and upload its data
             using FileStream uploadFileStream = File.OpenRead(localFilePath);
