@@ -50,6 +50,8 @@ namespace BlobConsoleDemo
             myContainerClient.CreateIfNotExists();
             //Set the container access Type to blobContainer
             myContainerClient.SetAccessPolicy(accessType: PublicAccessType.Blob);
+
+            //Logic for Blob Upload
         }
     }
 }
