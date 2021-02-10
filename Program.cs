@@ -41,13 +41,15 @@ namespace BlobConsoleDemo
             BlobServiceClient myBlobServiceClient = new BlobServiceClient(getConnectionString);
             
             //Settings for new container name 
-            string containerName = "asn" + getStudentID + Guid.NewGuid().ToString();
+            string containerName = "asn-" + getStudentID + "-" + Guid.NewGuid().ToString();
 
             //Create the container and return an container client object
             BlobContainerClient myContainerClient = myBlobServiceClient.CreateBlobContainer(containerName);
+            //Minimal validation for Blob container creation
+            //DoubleCheck for Creation
             myContainerClient.CreateIfNotExists();
             //Set the container access Type to blobContainer
-            myContainerClient.SetAccessPolicy(accessType: PublicAccessType.BlobContainer);
+            myContainerClient.SetAccessPolicy(accessType: PublicAccessType.Blob);
         }
     }
 }
