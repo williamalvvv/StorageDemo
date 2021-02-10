@@ -21,3 +21,7 @@
 /Users/usuario/Desktop/ProjectsASN/BlobConsoleDemo/obj/Debug/netcoreapp3.1/BlobConsoleDemo.pdb
 /Users/usuario/Desktop/ProjectsASN/BlobConsoleDemo/obj/Debug/netcoreapp3.1/BlobConsoleDemo.genruntimeconfig.cache
 /Users/usuario/Desktop/ProjectsASN/BlobConsoleDemo/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/usuario/Desktop/ProjectsASN/BlobConsoleDemo/bin/Debug/netcoreapp3.1/Azure.Core.dll
+/Users/usuario/Desktop/ProjectsASN/BlobConsoleDemo/bin/Debug/netcoreapp3.1/Azure.Storage.Blobs.dll
+/Users/usuario/Desktop/ProjectsASN/BlobConsoleDemo/bin/Debug/netcoreapp3.1/Azure.Storage.Common.dll
+/Users/usuario/Desktop/ProjectsASN/BlobConsoleDemo/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
